@@ -1,0 +1,11 @@
+body {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 400px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500px;
+}
