@@ -1,1 +1,60 @@
+body {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 400px;
+  margin: 100px 0px;
+}
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.headings {
+  margin-bottom: 75px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.card-title,
+.card-text {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: none;
+}
+
+.card img {
+  vertical-align: middle;
+}
+
+.first-project {
+  padding-bottom: 50px;
+}
+
+.second-project {
+  padding-bottom: 50px;
+}
+
+.back-home {
+  text-align: center;
+  margin-top: 50px;
+}
