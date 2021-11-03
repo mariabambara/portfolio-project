@@ -1,6 +1,7 @@
 body {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-weight: 400px;
+  margin: 100px 0px;
 }
 
 h1,
@@ -8,4 +9,26 @@ h2,
 h3,
 h4 {
   font-weight: 500px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+img {
+  height: auto;
+  width: 300px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
 }
