@@ -32,3 +32,12 @@ a {
 a:hover {
   color: inherit;
 }
+
+@media (max-width: 768px) {
+  img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+}

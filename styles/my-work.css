@@ -58,3 +58,9 @@ a:hover {
   text-align: center;
   margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+  img {
+    display: none;
+  }
+}
