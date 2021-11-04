@@ -101,6 +101,9 @@ small {
 }
 
 @media (max-width: 575px) {
+  body {
+    text-align: center;
+  }
   main {
     margin: 60px 0px;
   }
