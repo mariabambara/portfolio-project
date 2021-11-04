@@ -1,6 +1,9 @@
 body {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-weight: 400px;
+}
+
+main {
   margin: 100px 0px;
 }
 
@@ -33,11 +36,6 @@ a:hover {
   color: inherit;
 }
 
-.back-home {
-  text-align: center;
-  margin-top: 50px;
-}
-
 .education,
 .work-experience {
   margin-top: 60px;
@@ -45,4 +43,21 @@ a:hover {
 
 .work-experience {
   margin-bottom: 60px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+  color: transparent;
+}
+
+.bg-light {
+  background-color: transparent !important;
+  border-bottom: solid 1px rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
 }
