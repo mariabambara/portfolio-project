@@ -82,6 +82,7 @@ a:hover {
 
 footer {
   background-color: #eee;
+  padding-top: 60px;
 }
 
 ul {
@@ -109,9 +110,12 @@ li {
   color: #000;
 }
 
-.links,
-.name {
-  margin: 60px 0px;
+.byline {
+  margin: 60px 0 30px 0;
+}
+
+small {
+  font-size: 12px;
 }
 
 @media (max-width: 575px) {
@@ -121,13 +125,22 @@ li {
   .col-12 {
     text-align: center;
   }
-  .name {
-    margin: 30px 0px;
-  }
   .links {
-    margin: 20px 0px 30px 0px;
+    margin-top: 20px;
+  }
+  .name {
+    padding-bottom: 10px;
+  }
+  footer {
+    padding-top: 30px;
   }
   li {
     margin-top: 10px;
+  }
+  .byline {
+    margin: 30px 0 15px 0;
+  }
+  small {
+    font-size: 10px;
   }
 }
