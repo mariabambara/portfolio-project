@@ -101,7 +101,7 @@ small {
 }
 
 @media (max-width: 575px) {
-  body {
+  .main-copy {
     text-align: center;
   }
   main {
