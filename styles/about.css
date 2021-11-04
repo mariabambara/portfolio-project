@@ -126,3 +126,7 @@ small {
     font-size: 10px;
   }
 }
+
+h2 {
+  margin-bottom: 20px;
+}
